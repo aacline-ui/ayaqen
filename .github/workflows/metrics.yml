@@ -37,7 +37,7 @@ jobs:
           output_action: commit
           output_condition: data-changed
           plugins_errors_fatal: yes
-          use_prebuilt_image: no
+          use_prebuilt_image: yes
 
       - name: Mastered topics
         uses: lowlighter/metrics@1e49d0b8b932624dd7762147e35ccc137eda09f1
@@ -56,7 +56,7 @@ jobs:
           output_action: commit
           output_condition: data-changed
           plugins_errors_fatal: yes
-          use_prebuilt_image: no
+          use_prebuilt_image: yes
 
       - name: Personal achievements
         uses: lowlighter/metrics@1e49d0b8b932624dd7762147e35ccc137eda09f1
@@ -77,4 +77,4 @@ jobs:
           output_action: commit
           output_condition: data-changed
           plugins_errors_fatal: yes
-          use_prebuilt_image: no
+          use_prebuilt_image: yes
